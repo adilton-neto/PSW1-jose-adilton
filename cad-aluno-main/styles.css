@@ -1,0 +1,215 @@
+body{
+margin: 0px;
+}
+
+
+/* header styles*/
+
+
+.box{
+width: auto;
+height: 25vh;
+
+}
+
+.titulo{
+background-color: rgb(0, 46, 101);
+width: auto;
+height: 25vh;
+display: grid;
+grid-template-areas: "vs entra";
+grid-template-columns: 15% 85%;
+
+}
+
+.vs{
+display: grid;
+grid-area: vs;
+
+}
+
+.vs img{
+width: 45vh;
+height: 25vh;
+}
+
+.entra{
+display: grid;
+grid-area: entra;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 50vh;
+color: rgb(233, 236, 255);
+font-family: Comic Sans MS;
+font-size: 30px;
+}
+
+
+/* footer styles*/
+
+.box2{
+width: auto;
+height: 15vh;
+
+
+}
+
+.rodape{
+background-color: rgb(0, 46, 101);
+width: auto;
+height: 15vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(233, 236, 255);
+}
+
+
+/* cadaluno styles*/
+
+.box3{
+
+width: auto;
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.formulario{
+background-color: rgb(105, 156, 156);
+width: 80vh;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 30px;
+
+}
+
+
+/* .login{
+
+} */
+
+.cx1{
+border-radius: 10px;
+width: 50vh;
+height:5vh;
+}
+
+.senha{
+    margin-top: 5vh;
+}
+
+.cx2{
+    border-radius: 10px;
+width: 50vh;
+height: 5vh;
+
+}
+
+.botao{
+margin-top: 3vh;
+
+
+}
+
+.bt{
+background-color: darkgray;
+border-radius: 5px;
+width: 20vh;
+height: 3.5vh;
+}
+
+.criar{
+display: flex;
+align-items: center;
+margin-top: 5vh;
+margin-left: 10vh;
+
+}
+
+
+/* mostraaluno styles*/
+
+.boxmostra{
+    width: auto;
+    height: 90vh;
+    background-color: aquamarine;
+
+}
+
+
+/* editaraluno styles*/
+
+.box4{
+
+ width:auto;   
+ 
+
+}
+
+
+
+.nome1{
+    border-radius: 10px;
+    width: 60vh;
+    height: 5vh;
+    margin-left: 15vh;
+}
+
+.email{
+display: flex;
+
+}
+
+.cxemail{
+border-radius: 10px;
+width: 50vh;
+height: 5vh;
+margin-top: 10vh;
+
+
+}
+
+.cit{
+
+    border-radius: 10px;
+    width: 60vh;
+    height: 5vh;
+    margin-left: 10vh;
+}
+
+
+.bt1{
+    width: 40vh;
+    height: 5vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+    
+}
+
+.nm{
+margin-left: 3vh;
+
+}
+
+
+/* home styles*/
+
+
+.boxhome{
+    background-color: rgb(198, 208, 227);
+width: auto;
+height: 90vh;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
